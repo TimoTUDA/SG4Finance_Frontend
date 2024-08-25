@@ -1,0 +1,41 @@
+.carousel-box {
+  background-color: var(--navbar-color);
+  color: var(--text-color);
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  min-height: 100px;
+  overflow: hidden;
+  box-shadow: 1px 1px 1px var(--navbar-color);
+  border-radius: 10px;
+  height: 26rem;
+}
+
+.item-container {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+
+  width: 100%;
+  padding: 20px;
+}
+
+.btn-carousel {
+  flex-direction: column;
+  background-color: var(--dashbord-card-color) !important;
+  color: var(--text-color) !important;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 3rem;
+  height: 24rem;
+}
+
+.img-carousel {
+  height: 80px;
+  margin-bottom: 2rem;
+}

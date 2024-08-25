@@ -1,0 +1,235 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg-color);
+}
+
+.card {
+  background-color: var(--dashbord-card-color);
+}
+.conponent-color {
+  background-color: var(--dashbord-card-color);
+}
+
+.header,
+.footer {
+  height: 50px;
+  color: var(--footer);
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.drawer {
+  width: 240px;
+  margin-right: 10px;
+}
+
+.dashboard {
+  flex: 1;
+}
+
+.button-back {
+  background-color: var(--back-button-color);
+  color: var(--back-button-text);
+  border: none;
+}
+
+.dashboard-card {
+  background: var(--dashbord-card-color) !important;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 20px;
+  height: 20rem !important;
+}
+
+.capital-card {
+  background: var(--capital-card-color) !important;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 40px;
+  height: 100%;
+  height: 8rem !important;
+}
+
+.anlagen-card {
+  background: var(--anlegen-card) !important;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 20px;
+  height: 100%;
+}
+
+.capital {
+  color: var(--capital-text-color) !important;
+}
+
+.emoji {
+  font-size: 30px;
+  display: inline;
+}
+
+.no-padding {
+  padding: 0px !important;
+}
+
+.no-margin {
+  margin: 0px !important;
+}
+
+.emoji-medium {
+  font-size: 37.5px;
+  display: inline;
+  margin-left: -10px;
+}
+
+.emoji-big {
+  font-size: 45px;
+  display: inline;
+}
+
+.card-title {
+  color: var(--title-text-color) !important;
+  font-weight: 500;
+}
+
+.needs-title {
+  color: var(--title-text-color) !important;
+  font-weight: 500;
+}
+
+.goal-value {
+  color: var(--needs-text-color) !important;
+  font-weight: 500;
+}
+
+.multiplayer-player-name {
+  color: var(--player-name-color) !important;
+  font-size: 1.33em;
+  font-weight: 500;
+}
+
+.multiplayer-description-text {
+  color: var(
+    --player-name-color
+  ) !important; // TODO -> Das ist aktuell einfach ne kopie. ggf. eigene farbe?
+  font-size: small;
+}
+
+.back-to-start-button {
+  background-color: var(--back-to-start-button-color) !important;
+  color: var(--back-to-start-button-text-color);
+  box-shadow: 1px 1px 1px black;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+}
+
+.back-to-start-button:hover {
+  background-color: var(--back-to-start-button-color);
+}
+
+.endscreen-button {
+  background-color: var(--dashbord-card-color) !important;
+  color: var(--text-color);
+  box-shadow: 1px 1px 1px black;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 500;
+  width: 100%;
+}
+
+.zinseszins-window {
+  width: 800px;
+}
+
+.zinseszins-window-align-right {
+  text-align: right;
+}
+
+.zinseszins-window-align-center {
+  text-align: center;
+}
+
+.back-to-start-button:hover {
+  opacity: 0.8;
+}
+
+.div-line-chart {
+  display: flex;
+  justify-content: center;
+  border-left: thin solid var(--title-text-color);
+  border-right: thin solid var(--title-text-color);
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+@keyframes TransitioningBackground {
+  0% {
+    background-position: 1% 0%;
+  }
+  50% {
+    background-position: 99% 100%;
+  }
+  100% {
+    background-position: 1% 0%;
+  }
+}
+.progress-card {
+  box-shadow: 1px 1px 1px black;
+  border-radius: 20px;
+  height: 8rem !important;
+
+  /* for background color shift */
+  background-image: (
+    linear-gradient(270deg, var(--gradient-color1), var(--gradient-color2))
+  );
+  background-size: 400% 400%;
+  animation: TransitioningBackground 6s ease infinite;
+  transition: 0.4s;
+}
+
+.button-margins {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-left: auto;
+}
+
+.component-color {
+  background-color: var(--dashbord-card-color);
+  color: var(--text-color);
+}
+
+.size-reset-btn {
+  color: var(--text-color);
+}
+
+.gradient {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 300% 300%;
+  background-image: linear-gradient(
+    -45deg,
+    var(--StartingPageGradient1) 0%,
+    var(--StartingPageGradient2) 25%,
+    var(--StartingPageGradient3) 51%,
+    var(--StartingPageGradient4) 100%
+  );
+  animation: AnimateBG 20s ease infinite;
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}

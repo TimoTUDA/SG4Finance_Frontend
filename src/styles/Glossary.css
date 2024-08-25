@@ -1,0 +1,24 @@
+dt {
+  margin-top: 1rem;
+  margin-left: 2rem !important;
+  margin-bottom: 0.1rem;
+  color: var(--text-color) !important;
+  font-weight: bold;
+}
+
+dd {
+  color: var(--text-color) !important;
+  margin-left: 2rem !important;
+  margin-right: 3rem;
+}
+
+.btn-glossary {
+  flex-direction: column;
+  background-color: var(--dashbord-card-color) !important;
+  color: var(--text-color) !important;
+}
+
+.colors {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}

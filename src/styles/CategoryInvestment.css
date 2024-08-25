@@ -1,0 +1,82 @@
+.investment {
+  background: var(--bg-color) !important;
+  color: var(--text-color) !important;
+  border-radius: 1em;
+  filter: drop-shadow(1px 1px 1px);
+}
+.category-investment {
+  background: var(--dashbord-card-color) !important;
+  color: var(--text-color) !important;
+}
+
+.category-investment:hover {
+  background: var(--dashbord-card-color) !important;
+}
+
+.blocksatz {
+  text-align: justify;
+  font-size: 0.95em;
+}
+
+.text-01 {
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.1em;
+}
+
+.glow32 {
+  margin-left: -32px;
+  opacity: 0;
+}
+
+.glow32:hover {
+  filter: blur(3px) brightness(1.5);
+  opacity: 0.5;
+}
+
+.glow24 {
+  margin-left: -24px;
+  opacity: 0;
+}
+
+.glow24:hover {
+  filter: blur(2px) brightness(1.5);
+  opacity: 0.5;
+}
+
+.margin-bot05em {
+  margin-bottom: 0.5em;
+}
+
+.text-02 {
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.1em;
+  background: var(--bg-color);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.color-green {
+  color: var(--arrow-up-color);
+}
+.color-red {
+  color: var(--arrow-down-color);
+}
+.color-black {
+  color: var(--text-color);
+}
+
+.button {
+  background-color: var(--bg-color);
+}
+
+.info {
+  color: var(--text-color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 1rem;
+}

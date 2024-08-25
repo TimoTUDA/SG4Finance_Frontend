@@ -1,0 +1,46 @@
+.header-text {
+  position: absolute;
+  top: 0;
+  font-size: 2rem;
+  color: var(--back-button-text);
+  text-align: center;
+  width: 100%;
+  z-index: -1000;
+  background-color: var(--back-button-color);
+}
+
+.margin {
+  margin-top: 0.5rem !important;
+}
+
+.myTextFields {
+  border-radius: 3px;
+  background-color: var(--button) !important;
+  color: var(--button-text-color) !important;
+}
+
+.background {
+  background-color: var(--background-color);
+}
+
+.myButton {
+  height: 3rem;
+  background-color: var(--button) !important;
+  color: var(--button-text-color) !important;
+  font-weight: 400;
+  font-size: larger;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 1rem 1rem;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.myButton:hover {
+  opacity: 0.5;
+}

@@ -1,0 +1,109 @@
+/* Bootstrap Variablen hier überschreiben */
+:root {
+  --button: #e5e5e5;
+  --button-border-color: #e5e5e5;
+
+  --bg-color: #ffffff;
+
+  --navbar-color: #eaeaea;
+  --footer: #eaeaea;
+  --back-button-color: #eaeaea;
+
+  --loading-spin-color1: #e5e5e5;
+  --loading-spin-color2: #ffffff;
+
+  --gradient-color1: #e5e5e5;
+  --gradient-color2: #ffffff;
+
+  --event-bg-color: #e5e5e5;
+  --event-button-color: #e5e5e5;
+
+  --dashbord-card-color: #e5e5e5;
+  --capital-card-color: #e5e5e5;
+
+  --back-to-start-button-color: #000000;
+  --back-button-text: #000000;
+  --back-to-start-button-text-color: #000000;
+  --navbar-text-color: #000000;
+  --text-color: #000000;
+  --capital-text-color: #000000;
+  --title-text-color: #000000;
+  --needs-text-color: #000000;
+  --button-text-color: #000000;
+
+  --StartingPageGradient1: rgba(90, 49, 173, 1);
+  --StartingPageGradient2: rgba(173, 49, 69, 1);
+  --StartingPageGradient3: rgba(49, 173, 153, 1);
+  --StartingPageGradient4: rgba(132, 173, 49, 1);
+
+  --arrow-up-color: #408040;
+  --arrow-down-color: #aa4040;
+}
+/*primary sollte button farbe sein */
+$primary: #e5e5e5;
+/*secondary sollte hintergund farbe sein */
+$secondary: #000000;
+/*$success: ;
+  $info: ;
+  $warning: ;
+  $danger: ;
+  $light: ; 
+  $dark:;*/
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+/* Globale Styles hier */
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color) !important;
+  height: 100vh;
+
+  th {
+    color: var(--text-color);
+  }
+
+  tr {
+    color: var(--text-color);
+  }
+}
+.btn-primary {
+  background-color: var(--button);
+  border: none;
+  color: var(--text-color);
+  &:hover {
+    border: 0;
+    box-shadow: none;
+    background-color: var(--button);
+    color: var(--bg-color);
+    border: none !important;
+  }
+}
+.dropdown-menu {
+  background-color: var(--button);
+  color: var(--text-color);
+  > li > a {
+    color: var(--text-color);
+    &:hover {
+      color: var(--text-color);
+      text-decoration: none;
+      background-color: var(--button);
+    }
+  }
+}
+
+.dropdown-item {
+  color: var(--text-color);
+}
+
+.list-group-item {
+  color: var(--text-color) !important;
+}
+
+.form-control.Dialog.border-0 {
+  text-align: center;
+  color: var(--text-color) !important;
+  background-color: var(--button) !important;
+  width: 8rem;
+  left: 50%;
+  margin: 0 auto;
+}

@@ -1,0 +1,56 @@
+.my-node-enter {
+  opacity: 0;
+}
+.my-node-enter-active {
+  opacity: 1;
+  transition: opacity 800ms;
+}
+.my-node-exit {
+  opacity: 1;
+}
+.my-node-exit-active {
+  opacity: 0;
+  transition: opacity 800ms;
+}
+
+.card.body {
+  background: var(--event-bg-color) !important;
+}
+
+.show-event-button {
+  font-size: 50px;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  background: var(--event-bg-color) !important;
+  animation: shake 3s 1s infinite;
+}
+
+.dashboard-card-event {
+  background: var(--event-bg-color) !important;
+  box-shadow: 1px 1px 1px black;
+  border-radius: 50px;
+  height: 100%;
+}
+
+.show-event-button:hover {
+  background-color: var(--event-button-color) !important;
+}
+
+@keyframes shake {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+
+  33% {
+    transform: rotate(25deg) scale(1.1);
+  }
+
+  66% {
+    transform: rotate(-25deg) scale(1.1);
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}

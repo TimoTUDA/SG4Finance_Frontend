@@ -1,0 +1,105 @@
+@font-face {
+  font-family: "JacquesFrancois";
+  src: url("../styles/fonts/JacquesFrancois-Regular.ttf");
+}
+
+@font-face {
+  font-family: "VarelaRound";
+  src: url("../styles/fonts/VarelaRound-Regular.ttf");
+}
+
+* {
+  font-family: "VarelaRound";
+  font-variant-numeric: tabular-nums;
+}
+
+body {
+  background-color: var(--bg-color);
+  overflow: auto;
+}
+
+.number {
+  font-family: "VarelaRound";
+  text-align: center;
+}
+
+.number-positive {
+  font-family: "VarelaRound";
+  color: var(--arrow-up-color) !important;
+  text-align: center;
+}
+
+.number-negative {
+  font-family: "VarelaRound";
+  color: var(--arrow-down-color) !important;
+  text-align: center;
+}
+
+.progress-needs {
+  background-color: var(--dashbord-color) !important;
+  height: 2.1em !important;
+}
+
+.progress-needs-text {
+  margin-top: -1.45em;
+}
+
+.size-normal {
+  font-size: 18px;
+}
+
+.size-small {
+  font-size: 16px;
+}
+
+.size-title {
+  font-size: 26px;
+}
+
+.size-end-btn {
+  font-size: 22px;
+  line-height: 50px;
+}
+
+.size-glossar-btn {
+  font-size: 12px;
+}
+
+.size-reset-btn {
+  font-size: 18px;
+}
+
+.txt-tips-btn {
+  font-size: 12px;
+}
+
+/* @media (min-height: 1080px) {
+	.size-normal {
+		font-size: 26px ;
+	}
+
+	.size-small {
+		font-size: 22px ;
+	}
+
+	.size-title {
+		font-size: 32px ;
+	}
+
+	.size-end-btn {
+		font-size: 30px ;
+		line-height: 60px ;
+	}
+
+	.size-glossar-btn {
+		font-size: 18px ;
+	}
+
+	.size-reset-btn {
+		font-size: 24px ;
+	}
+
+	.txt-tips-btn {
+		font-size: 18px ;
+	}
+} */

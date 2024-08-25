@@ -1,0 +1,40 @@
+.StartingPanel {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+.Icon {
+  color: var(--text-color) !important;
+}
+
+.Button {
+  transition-duration: 0.4s;
+  color: var(--text-color) !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.Button:hover {
+  color: var(--button) !important;
+  background-color: var(--text-color) !important;
+}
+
+.box {
+  height: 3rem;
+  padding-top: 0.5rem;
+  text-align: center;
+  font-weight: 400;
+  font-size: larger;
+  background-color: var(--dashbord-card-color) !important;
+  color: var(--text-color) !important;
+  width: 12rem;
+  height: 3rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0rem 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.box:hover {
+  filter: blur(1px);
+  filter: opacity(0.5);
+}

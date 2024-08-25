@@ -1,0 +1,150 @@
+.navbar {
+  background-color: var(--navbar-color);
+}
+
+.navbar .navbar-brand {
+  color: var(--navbar-text-color);
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-brand:focus {
+  color: var(--navbar-text-color);
+}
+
+.navbar .navbar-text {
+  color: var(--navbar-text-color);
+}
+
+.navbar .navbar-text a {
+  color: var(--navbar-text-color);
+}
+
+.navbar .navbar-text a:hover,
+.navbar .navbar-text a:focus {
+  color: var(--navbar-text-color);
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--navbar-text-color);
+  border-radius: 0.25rem;
+  margin: 0 0.25em;
+}
+
+.navbar .navbar-nav .nav-link:not(.disabled):hover,
+.navbar .navbar-nav .nav-link:not(.disabled):focus {
+  color: var(--navbar-text-color);
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link:hover,
+.navbar .navbar-nav .nav-item.active .nav-link:focus,
+.navbar .navbar-nav .nav-item.show .nav-link,
+.navbar .navbar-nav .nav-item.show .nav-link:hover,
+.navbar .navbar-nav .nav-item.show .nav-link:focus {
+  color: var(--navbar-text-color);
+  background-color: var(--navbar-color);
+}
+
+.navbar .navbar-toggler {
+  border-color: var(--navbar-color);
+}
+
+.navbar .navbar-toggler:hover,
+.navbar .navbar-toggler:focus {
+  background-color: var(--navbar-color);
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+  color: var(--navbar-text-color);
+}
+
+.navbar .navbar-collapse,
+.navbar .navbar-form {
+  border-color: var(--navbar-text-color);
+}
+
+.navbar .navbar-link {
+  color: var(--navbar-text-color);
+}
+
+.navbar .navbar-link:hover {
+  color: var(--navbar-text-color);
+}
+
+@media (max-width: 575px) {
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: var(--navbar-text-color);
+  }
+
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: var(--navbar-text-color);
+  }
+
+  .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: var(--navbar-text-color);
+    background-color: var(--navbar-color);
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: var(--navbar-text-color);
+  }
+
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: var(--navbar-text-color);
+  }
+
+  .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: var(--navbar-text-color);
+    background-color: var(--navbar-color);
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: var(--navbar-text-color);
+  }
+
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: var(--navbar-text-color);
+  }
+
+  .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: var(--navbar-text-color);
+    background-color: var(--navbar-color);
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: var(--navbar-text-color);
+  }
+
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: var(--navbar-text-color);
+  }
+
+  .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: var(--navbar-text-color);
+    background-color: var(--navbar-color);
+  }
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+  color: var(--navbar-text-color);
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+  color: var(--navbar-text-color);
+}
+
+.navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+  color: var(--navbar-text-color);
+  background-color: var(--navbar-color);
+}

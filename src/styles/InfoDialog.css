@@ -1,0 +1,17 @@
+.Dialog {
+  background-color: var(--bg-color) !important;
+  color: var(--text-color) !important;
+}
+
+.Icon {
+  color: var(--text-color) !important;
+}
+
+.Button {
+  color: var(--text-color) !important;
+}
+
+.Button:hover {
+  color: var(--button) !important;
+  background-color: var(--text-color) !important;
+}
